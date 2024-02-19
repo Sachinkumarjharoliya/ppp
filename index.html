@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="inputs">
+            <input type="text" id="userInput">
+        </div>
+        <div class="checks">
+            
+            <input type="checkbox" name="filterKey" id="ID" value="" checked> Id
+            <input type="checkbox" name="filterKey" id="name" value="" checked> Name
+            <input type="checkbox" name="filterKey" id="email" value="" checked> Email
+            <input type="checkbox" name="filterKey" id="Address" value="" checked> Address
+        </div>
+        <div class="table">
+            <table  border="2" class="Data_Table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

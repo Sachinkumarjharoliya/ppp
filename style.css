@@ -1,0 +1,63 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+.skyblue {
+    background-color: skyblue;
+}
+.wrapper {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.inputs input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checks {
+  margin-bottom: 20px;
+  margin-left: 213px;
+}
+
+.checks input[type="checkbox"] {
+  margin-right: 10px;
+}
+table {
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fwooden-table-product-background_53876-89452.jpg&tbnid=MCKYgHgKN1_m9M&vet=10CA4QxiAoAWoXChMI0OD3wcW3hAMVAAAAAB0AAAAAEAc..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Ftable-background&docid=O4A6kjmGCKcxMM&w=626&h=461&itg=1&q=background%20image%20for%20table&ved=0CA4QxiAoAWoXChMI0OD3wcW3hAMVAAAAAB0AAAAAEAc");
+}
+
+table.Data_Table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.Data_Table th,
+table.Data_Table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+table.Data_Table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+table.Data_Table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.highlight {
+  background-color: yellow; 
+}
